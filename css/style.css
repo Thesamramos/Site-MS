@@ -31,7 +31,7 @@ header {
 
 a {
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
     color: white;
 }
 
@@ -49,16 +49,72 @@ a {
 }
 
 .text {
+    padding: 15px 10px;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 5px 5px;
     text-align: center;
     max-width: 365px;
-    margin-right: 12px;
+
+    margin-left: 30px;
 }
 
 h2 {
     text-align: center;
     padding: 15px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
+
+.card1 {
+    border: 2px solid #333;
+    border-radius: 2%;
+    background-color: #fffaf2;
+    padding: 10px 0px;
+    box-shadow: 0px 0px 5px #06d974;
+    color: #112506;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card2 {
+    border: 2px solid #333;
+    border-radius: 2%;
+    background-color: #fffaf2;
+    padding: 10px 0px;
+    box-shadow: 0px 0px 5px #06d974;
+    color: #112506;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card3 {
+    border: 2px solid #333;
+    border-radius: 2%;
+    background-color: #fffaf2;
+    padding: 10px 0px;
+    box-shadow: 0px 0px 5px #06d974;
+    color: #112506;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    padding: 10px;
+}
+
+.text2 {
+    padding: 10px;
 }
 
 .youtube {
@@ -78,4 +134,34 @@ footer {
     background: rgb(28, 189, 28);
     padding: 15px;
     box-shadow: 0px 3px 7px;
+}
+
+@media (max-width: 425px) {
+    .header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    
+    
 }
